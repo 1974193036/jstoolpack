@@ -54,6 +54,7 @@ const fn = debounce(() => console.log('Hello, world!'), 1000);
 fn(); // 不会立即执行
 fn(); // 不会立即执行
 fn(); // 不会立即执行
+fn(); // 不会立即执行
 // 1000 毫秒后，'Hello, world!' 只会被输出一次
 ```
 
