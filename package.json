@@ -2,6 +2,7 @@
   "name": "@shishuaiyun/jstoolpack",
   "version": "1.0.0",
   "description": "",
+  "private": false,
   "main": "./dist/index.common.js",
   "module": "./dist/index.esm.js",
   "browser": "./dist/index.js",
