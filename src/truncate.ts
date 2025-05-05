@@ -8,6 +8,7 @@ export function truncate(str?: any, len?: any, omission = "...") {
     return "";
   }
 
+  // 必须要大于len
   if (str.length > len) {
     // 说明要开始截断
     str = str.slice(0, len - omission.length) + omission;
